@@ -1,0 +1,9 @@
+C:\Users\azatates7\source\repos\C_Sharp_Mssql_Form_Implements\C_Sharp_Mssql_Form_Implements\bin\Debug\C_Sharp_Mssql_Form_Implements.exe.config
+C:\Users\azatates7\source\repos\C_Sharp_Mssql_Form_Implements\C_Sharp_Mssql_Form_Implements\bin\Debug\C_Sharp_Mssql_Form_Implements.exe
+C:\Users\azatates7\source\repos\C_Sharp_Mssql_Form_Implements\C_Sharp_Mssql_Form_Implements\bin\Debug\C_Sharp_Mssql_Form_Implements.pdb
+C:\Users\azatates7\source\repos\C_Sharp_Mssql_Form_Implements\C_Sharp_Mssql_Form_Implements\obj\Debug\C_Sharp_Mssql_Form_Implements.csprojAssemblyReference.cache
+C:\Users\azatates7\source\repos\C_Sharp_Mssql_Form_Implements\C_Sharp_Mssql_Form_Implements\obj\Debug\C_Sharp_Mssql_Form_Implements.Form1.resources
+C:\Users\azatates7\source\repos\C_Sharp_Mssql_Form_Implements\C_Sharp_Mssql_Form_Implements\obj\Debug\C_Sharp_Mssql_Form_Implements.Properties.Resources.resources
+C:\Users\azatates7\source\repos\C_Sharp_Mssql_Form_Implements\C_Sharp_Mssql_Form_Implements\obj\Debug\C_Sharp_Mssql_Form_Implements.csproj.GenerateResource.cache
+C:\Users\azatates7\source\repos\C_Sharp_Mssql_Form_Implements\C_Sharp_Mssql_Form_Implements\obj\Debug\C_Sharp_Mssql_Form_Implements.exe
+C:\Users\azatates7\source\repos\C_Sharp_Mssql_Form_Implements\C_Sharp_Mssql_Form_Implements\obj\Debug\C_Sharp_Mssql_Form_Implements.pdb

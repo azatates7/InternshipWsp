@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Sharp_Mssql_Form_Implements", "C_Sharp_Mssql_Form_Implements\C_Sharp_Mssql_Form_Implements.csproj", "{A89587BB-6AF3-4B44-8A39-A60B0FEAB27C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A89587BB-6AF3-4B44-8A39-A60B0FEAB27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89587BB-6AF3-4B44-8A39-A60B0FEAB27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89587BB-6AF3-4B44-8A39-A60B0FEAB27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89587BB-6AF3-4B44-8A39-A60B0FEAB27C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75C14581-1996-4698-A800-E4F038C66649}
+	EndGlobalSection
+EndGlobal
