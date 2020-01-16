@@ -1,0 +1,9 @@
+C:\Users\azatates7\source\repos\AdoNetWorkspace\AdoNetWorkspace\bin\Debug\AdoNetWorkspace.exe.config
+C:\Users\azatates7\source\repos\AdoNetWorkspace\AdoNetWorkspace\bin\Debug\AdoNetWorkspace.exe
+C:\Users\azatates7\source\repos\AdoNetWorkspace\AdoNetWorkspace\bin\Debug\AdoNetWorkspace.pdb
+C:\Users\azatates7\source\repos\AdoNetWorkspace\AdoNetWorkspace\obj\Debug\AdoNetWorkspace.csprojAssemblyReference.cache
+C:\Users\azatates7\source\repos\AdoNetWorkspace\AdoNetWorkspace\obj\Debug\AdoNetWorkspace.Form1.resources
+C:\Users\azatates7\source\repos\AdoNetWorkspace\AdoNetWorkspace\obj\Debug\AdoNetWorkspace.Properties.Resources.resources
+C:\Users\azatates7\source\repos\AdoNetWorkspace\AdoNetWorkspace\obj\Debug\AdoNetWorkspace.csproj.GenerateResource.cache
+C:\Users\azatates7\source\repos\AdoNetWorkspace\AdoNetWorkspace\obj\Debug\AdoNetWorkspace.exe
+C:\Users\azatates7\source\repos\AdoNetWorkspace\AdoNetWorkspace\obj\Debug\AdoNetWorkspace.pdb

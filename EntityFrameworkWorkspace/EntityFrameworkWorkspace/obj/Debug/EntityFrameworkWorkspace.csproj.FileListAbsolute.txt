@@ -1,0 +1,14 @@
+C:\Users\azatates7\source\repos\EntityFrameworkWorkspace\EntityFrameworkWorkspace\bin\Debug\EntityFrameworkWorkspace.exe.config
+C:\Users\azatates7\source\repos\EntityFrameworkWorkspace\EntityFrameworkWorkspace\bin\Debug\EntityFrameworkWorkspace.exe
+C:\Users\azatates7\source\repos\EntityFrameworkWorkspace\EntityFrameworkWorkspace\bin\Debug\EntityFrameworkWorkspace.pdb
+C:\Users\azatates7\source\repos\EntityFrameworkWorkspace\EntityFrameworkWorkspace\bin\Debug\EntityFramework.dll
+C:\Users\azatates7\source\repos\EntityFrameworkWorkspace\EntityFrameworkWorkspace\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\azatates7\source\repos\EntityFrameworkWorkspace\EntityFrameworkWorkspace\bin\Debug\EntityFramework.xml
+C:\Users\azatates7\source\repos\EntityFrameworkWorkspace\EntityFrameworkWorkspace\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\azatates7\source\repos\EntityFrameworkWorkspace\EntityFrameworkWorkspace\obj\Debug\EntityFrameworkWorkspace.csprojAssemblyReference.cache
+C:\Users\azatates7\source\repos\EntityFrameworkWorkspace\EntityFrameworkWorkspace\obj\Debug\EntityFrameworkWorkspace.Form1.resources
+C:\Users\azatates7\source\repos\EntityFrameworkWorkspace\EntityFrameworkWorkspace\obj\Debug\EntityFrameworkWorkspace.Properties.Resources.resources
+C:\Users\azatates7\source\repos\EntityFrameworkWorkspace\EntityFrameworkWorkspace\obj\Debug\EntityFrameworkWorkspace.csproj.GenerateResource.cache
+C:\Users\azatates7\source\repos\EntityFrameworkWorkspace\EntityFrameworkWorkspace\obj\Debug\EntityFrameworkWorkspace.csproj.CopyComplete
+C:\Users\azatates7\source\repos\EntityFrameworkWorkspace\EntityFrameworkWorkspace\obj\Debug\EntityFrameworkWorkspace.exe
+C:\Users\azatates7\source\repos\EntityFrameworkWorkspace\EntityFrameworkWorkspace\obj\Debug\EntityFrameworkWorkspace.pdb
