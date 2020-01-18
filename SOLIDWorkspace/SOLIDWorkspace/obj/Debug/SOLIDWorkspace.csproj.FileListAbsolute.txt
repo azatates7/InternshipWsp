@@ -1,0 +1,14 @@
+C:\Users\azatates7\source\repos\SOLIDWorkspace\SOLIDWorkspace\obj\Debug\SOLIDWorkspace.csprojAssemblyReference.cache
+C:\Users\azatates7\source\repos\SOLIDWorkspace\SOLIDWorkspace\obj\Debug\SOLIDWorkspace.Form1.resources
+C:\Users\azatates7\source\repos\SOLIDWorkspace\SOLIDWorkspace\obj\Debug\SOLIDWorkspace.Properties.Resources.resources
+C:\Users\azatates7\source\repos\SOLIDWorkspace\SOLIDWorkspace\obj\Debug\SOLIDWorkspace.csproj.GenerateResource.cache
+C:\Users\azatates7\source\repos\SOLIDWorkspace\SOLIDWorkspace\bin\Debug\SOLIDWorkspace.exe.config
+C:\Users\azatates7\source\repos\SOLIDWorkspace\SOLIDWorkspace\bin\Debug\SOLIDWorkspace.exe
+C:\Users\azatates7\source\repos\SOLIDWorkspace\SOLIDWorkspace\bin\Debug\SOLIDWorkspace.pdb
+C:\Users\azatates7\source\repos\SOLIDWorkspace\SOLIDWorkspace\bin\Debug\EntityFramework.dll
+C:\Users\azatates7\source\repos\SOLIDWorkspace\SOLIDWorkspace\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\azatates7\source\repos\SOLIDWorkspace\SOLIDWorkspace\bin\Debug\EntityFramework.xml
+C:\Users\azatates7\source\repos\SOLIDWorkspace\SOLIDWorkspace\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\azatates7\source\repos\SOLIDWorkspace\SOLIDWorkspace\obj\Debug\SOLIDWorkspace.csproj.CopyComplete
+C:\Users\azatates7\source\repos\SOLIDWorkspace\SOLIDWorkspace\obj\Debug\SOLIDWorkspace.exe
+C:\Users\azatates7\source\repos\SOLIDWorkspace\SOLIDWorkspace\obj\Debug\SOLIDWorkspace.pdb
