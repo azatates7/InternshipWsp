@@ -1,0 +1,14 @@
+C:\Users\azatates7\source\repos\SOLID_Respository_Pattern\SOLID_Respository_Pattern\bin\Debug\SOLID_Respository_Pattern.exe.config
+C:\Users\azatates7\source\repos\SOLID_Respository_Pattern\SOLID_Respository_Pattern\bin\Debug\SOLID_Respository_Pattern.exe
+C:\Users\azatates7\source\repos\SOLID_Respository_Pattern\SOLID_Respository_Pattern\bin\Debug\SOLID_Respository_Pattern.pdb
+C:\Users\azatates7\source\repos\SOLID_Respository_Pattern\SOLID_Respository_Pattern\bin\Debug\EntityFramework.dll
+C:\Users\azatates7\source\repos\SOLID_Respository_Pattern\SOLID_Respository_Pattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\azatates7\source\repos\SOLID_Respository_Pattern\SOLID_Respository_Pattern\bin\Debug\EntityFramework.xml
+C:\Users\azatates7\source\repos\SOLID_Respository_Pattern\SOLID_Respository_Pattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\azatates7\source\repos\SOLID_Respository_Pattern\SOLID_Respository_Pattern\obj\Debug\SOLID_Respository_Pattern.csprojAssemblyReference.cache
+C:\Users\azatates7\source\repos\SOLID_Respository_Pattern\SOLID_Respository_Pattern\obj\Debug\SOLID_Respository_Pattern.Form1.resources
+C:\Users\azatates7\source\repos\SOLID_Respository_Pattern\SOLID_Respository_Pattern\obj\Debug\SOLID_Respository_Pattern.Properties.Resources.resources
+C:\Users\azatates7\source\repos\SOLID_Respository_Pattern\SOLID_Respository_Pattern\obj\Debug\SOLID_Respository_Pattern.csproj.GenerateResource.cache
+C:\Users\azatates7\source\repos\SOLID_Respository_Pattern\SOLID_Respository_Pattern\obj\Debug\SOLID_Respository_Pattern.csproj.CopyComplete
+C:\Users\azatates7\source\repos\SOLID_Respository_Pattern\SOLID_Respository_Pattern\obj\Debug\SOLID_Respository_Pattern.exe
+C:\Users\azatates7\source\repos\SOLID_Respository_Pattern\SOLID_Respository_Pattern\obj\Debug\SOLID_Respository_Pattern.pdb
