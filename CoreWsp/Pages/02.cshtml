@@ -1,0 +1,30 @@
+@page
+@using RazorPagesIntro.Pages
+@model OrnekModel
+ 
+ @try
+{ 
+<h2>Ayri bir dosyadan gelen veri: </h2>
+<p>
+    @Model.Message
+</p>
+
+@using (Html.BeginForm())
+{
+    <div>
+        email:
+        <input type="email" id="Email" value="">
+        <button>Register</button>
+    </div>
+}
+
+
+}
+catch (Exception ex)
+{
+    <p>Hata mesajı: @ex.Message</p>
+}
+finally
+{
+    <p>Finally.</p>
+}
