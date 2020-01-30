@@ -1,8 +1,0 @@
-2020-01-06 16:11:46.274  WARN 21806 --- [main] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
-2020-01-06 16:11:48.076 ERROR 21806 --- [http-nio-8080-exec-1] actuator.controller.MainController       : This is an error log example
-2020-01-06 16:11:48.077 ERROR 21806 --- [http-nio-8080-exec-1] actuator.controller.MainController       : This is a fatal log example
-2020-01-06 16:11:48.077  WARN 21806 --- [http-nio-8080-exec-1] actuator.controller.MainController       : This is a warn log example
-2020-01-06 16:13:06.227  WARN 21946 --- [main] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
-2020-01-06 16:13:06.744 ERROR 21946 --- [http-nio-8080-exec-1] actuator.controller.MainController       : error
-2020-01-06 16:13:06.745 ERROR 21946 --- [http-nio-8080-exec-1] actuator.controller.MainController       : fatal
-2020-01-06 16:13:06.745  WARN 21946 --- [http-nio-8080-exec-1] actuator.controller.MainController       : warn
