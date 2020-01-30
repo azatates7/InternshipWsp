@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ajax Web Api</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script> 
+    
+</head>
+<body>
+    <h1 class="test" id="GetMyData">GetData</h1>
+
+    <script>
+        $("h1").click(function(e) {
+            e.preventDefault();
+            $.ajax({ 
+                type: 'GET',
+                url: 'https://localhost:44348/api/user', 
+        success: function(rs) {
+            alert(rs);
+                                  },
+        error: function(rs) {
+            alert('error');
+                                  }
+                                });
+                });
+    </script>
+
+    <!--<script type="text/javascript">
+        alert("q1")
+        $(function () {
+            alert("q2")
+            // $(document).ready(function(){
+            $("h1").click(function () {
+                $.ajax({
+                    alert("q3")
+                    type: "GET",
+                    url: "localhost:8092/api/User",
+                    success: function (response) {
+                        console.log(response)
+                        
+                    }
+                })
+            })
+        })
+    </script>-->
+    <!--<script type="text/javascript">
+        $("h1").click(function(){
+    alert("The paragraph was clicked.");
+    });
+    </script>-->
+</body>
+</html>
