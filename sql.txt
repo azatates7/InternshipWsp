@@ -1,0 +1,162 @@
+--insert into Login (UserName, UserPassword) VALUES ('Tstfdehghy', 'fffdfhdf');
+--insert into Login VALUES('njbjjıkç', 'dawrrew');
+--delete from Login where UserName = 'mskfn'
+--update login set UserName='vhgvhb', UserPassword='nkbkbh' where Id=2;
+--select count(*) from Login
+--select * from Login order by UserName asc
+--select * from Login order by userPassword desc
+--select * from Login
+--select * from Login where Id Between 1 AND 5
+--select * from Login where Id > 5
+--select sum(id) from Login
+--select avg(id) from Login
+--select max(id) from Login
+--select min(id) from Login
+--select distinct * from Login
+--select distinct UserName, UserPassword from Login
+--select UserName from login
+--select * from Login where UserName in('Keyyy', 'Tstfdehghy');
+--select * from Login where UserName Like 'K%'
+--select id, UserName AS Name, UserPassword AS Password From Login
+--select UserName from Login WHERE id<>1 GROUP BY UserName -- <> ===  !=  -- ASC & UNIQUE
+--select UserName from Login where Id > 1 group by UserName having UserName LIKE '%n%';
+--select * from Login WHERE id > ANY( SELECT id FROM Login WHERE UserName LIKE '%n%' ) AND id < 8
+--select * from Login WHERE id < ALL( SELECT id FROM Login WHERE UserName LIKE '%n%' ) AND id < 8
+--select top 1 * from Login where UserName LIKE '%n%'
+--select top 1 * from Login where UserName LIKE (select top 1 UserName from Login where UserName LIKE '%Key%');
+--alter table Login ADD RandomNumber INT;
+--UPDATE Login set RandomNumber = (SELECT CONVERT(INT, RAND() * 100)); -- generate random number
+--alter table Login Add fordel varchar(50);
+--alter table Login drop column fordel
+--alter table Login alter column RandomNumber varchar(20) -- alter column === modify column
+--EXEC sp_RENAME 'Login.RandomNumber', 'random', 'COLUMN'; --rename column name 	
+--EXEC sp_rename 'Login', 'UserLogin' -- rename table name
+
+--CREATE TABLE demotable2 (
+--    c1 int,
+--	c2 varchar(30),
+--    c3 nvarchar(30), 
+--); 
+
+--INSERT into demotable2 VALUES('bdsnfds', 'gfdhfgdh');
+--select * from demotable2;
+--DELETE FROM demotable; --after del identity can't reset
+--DROP TABLE demotable; --DROP table
+--TRUNCATE TABLE demotable2; -- after del identity reset and start 1
+--select distinct c2 from demotable2; 
+--select distinct c3 from demotable2;
+--select distinct c2, c3 from demotable2;
+--select UserName + ' ' + UserPassword AS UserFullName from UserLogin;
+--select distinct id, UserName + ' ' + UserPassword AS UserFullName, random from UserLogin;
+--select distinct UserName + ' ' + UserPassword AS UserFullName from UserLogin;
+--SELECT * INTO UserLogin_Backup FROM UserLogin; --Table Copy || Backup
+
+--DECLARE @Mesaj VARCHAR(30)
+--SELECT @Mesaj ='test' 
+--DECLARE @AddingValue1 nvarchar(20), @AddingValue2 nvarchar(20)
+--DECLARE @test1 nvarchar(20) = 'new1', @test2 nvarchar(20) = 'new2'
+--SET @test2 = 'newnew2'
+--select @AddingValue1 = 'new', @AddingValue2 = 'keygen'; 
+--insert into demotable2 values(@AddingValue1, @AddingValue2);
+--insert into demotable2 values(@test1, @test2);
+--select * from demotable2; 
+
+--print @test2
+--print '@test2 : ' + @test2
+--print 'test2 : ' + @test2
+
+--declare @test3 int = 32;
+--print cast(@test3 as nvarchar(32))
+
+--declare @test4 int = cast(@test3 as nvarchar(32))
+--if(@test4 > 20)
+--begin
+--print 'uygun'
+--end
+--else
+--begin
+--print 'uygun değil'
+--end
+
+--if(exists (select * from demotable2 where c1 = 111))
+--begin
+--print 'Founded'
+--end
+--else
+--begin
+--print 'not founded'
+--end
+
+--create procedure additem(  
+--@c2 nvarchar(30),
+--@c3 nvarchar(30)
+--)
+--AS insert into demotable2 values (@c2, @c3); 
+ 
+--exec additem @c2 = 'zzszs', @c3 = 'neww';
+--select * from demotable2;
+
+--create procedure delitem(@c1 int) AS delete from demotable2 where c1 = @c1; 
+
+--exec delitem @c1 = 32;
+
+--create procedure upditem(
+--	@upd int, @c2 nvarchar(MAX), @c3 nvarchar(MAX)
+--	)  AS update demotable2 set c2 = @c2, c3 = @c3 where c1 = @upd; 
+
+--create procedure selitem(@number nvarchar(MAX) = 'fgvsf') AS Select * from demotable2;
+
+--exec selitem;
+
+--exec upditem @upd = 21, @c2 = 'rick', @c3 = 'morty';
+
+--create view sellike AS Select * from demotable2 where c2 LIKE '%t%';
+
+--select * from sellike; -- run view
+
+--create function countplus() RETURNS INT AS  
+--BEGIN
+--	DECLARE @val1 INT;
+--	SET @val1 = (Select COUNT(*) from demotable2);
+--	DECLARE @val2 INT;
+--	SET @val2 = (Select MAX(c1) from demotable2);
+--  DECLARE @DIFF INT = @val2 - @val1; 
+--	return @DIFF;
+--END
+
+--DECLARE @val1 INT;
+--SET @val1 = (Select COUNT(*) from demotable2);
+--DECLARE @val2 INT;
+--SET @val2 = (Select MAX(c1) from demotable2);
+
+--select dbo.countplus(); -- count id and column number diff
+   
+--SET XACT_ABORT ON  
+--BEGIN TRANSACTION
+--	Delete from demotable2 where c1 = 9;
+--	Delete from demotable2 where c1 = 10;
+--	insert into demotable2 values('test', 5568); 
+--	  IF @@TRANCOUNT > 0
+--		BEGIN
+--			ROLLBACK  TRANSACTION
+--		END
+--	  ELSE
+--		BEGIN
+--			COMMIT TRANSACTION
+--		END 
+
+--exec selitem;
+
+--DECLARE @UserName nvarchar(MAX) 
+--DECLARE MyCursor CURSOR
+--FOR SELECT  c2 FROM demotable2
+--OPEN MyCursor 
+--FETCH NEXT FROM MyCursor INTO @UserName
+
+--WHILE @@FETCH_STATUS = 0 
+--    BEGIN 
+--        SELECT  c2 FROM   demotable2 WHERE   c2 = @UserName 
+--        FETCH NEXT FROM MyCursor INTO @UserName 
+--    END  
+--CLOSE MyCursor 
+--DEALLOCATE MyCursor

@@ -1,0 +1,52 @@
+DECLARE @First_Name nvarchar(20) = 'New'
+DECLARE @Last_Name nvarchar(20)= 'Next'
+DECLARE @Email_Address nvarchar(20) = 'asd@ds.dc'
+
+use Northwind;
+DECLARE @val1 NVARCHAR(20)
+DECLARE @val2 NVARCHAR(20)
+DECLARE @val3 NVARCHAR(20)
+
+DECLARE @MAXRAND INT = 5
+DECLARE @MINRAND INT = 20 
+DECLARE @RANDOMNUMBER1 INT = (SELECT RAND()*(@MAXRAND - @MINRAND) + @MINRAND);
+DECLARE @RANDOMNUMBER2 INT = (SELECT RAND()*(@MAXRAND - @MINRAND) + @MINRAND);
+
+IF(EXISTS (Select * from Employees where @First_Name <> 'New') AND @Last_Name <> 'Next')
+BEGIN 
+exec insertvalue @var1 = @First_Name, @var2 = @Last_Name, @var3 = @Email_Address;
+exec updvalue;
+exec removeshorts;
+-- exec delvalue @delvalue = 46;
+END 
+ELSE
+BEGIN
+SET @First_Name = (SELECT SUBSTRING(CONVERT(nvarchar(50), NEWID()),0, @RANDOMNUMBER1))
+SET @Last_Name = (SELECT SUBSTRING(CONVERT(nvarchar(50), NEWID()),0, @RANDOMNUMBER2))
+exec insertvalue @var1 = @First_Name, @var2 = @Last_Name, @var3 = @Email_Address;
+exec updvalue;
+exec removeshorts;
+END 
+
+exec selall; 
+select dbo.CountFunction(); -- call function
+
+-- CREATE FUNCTION CountFunction() RETURNS INT AS
+--		BEGIN
+--			DECLARE @RS INT
+--				SET @RS = (SELECT COUNT(*) FROM Employees)
+--					RETURN @RS
+--						END
+
+-- CREATE PROCEDURE selall(@selvalue INT = 0) AS Select * from Employees;
+-- CREATE PROCEDURE updvalue(@updvalue INT = 0) AS
+--		BEGIN
+--			UPDATE  Employees SET 
+--				First_Name = REPLACE ( First_Name ,'-', '' ), 
+--					Last_Name = REPLACE ( Last_Name ,'-', '' ) 
+--						where ((First_Name LIKE '%-%') OR (Last_Name LIKE '%-%'))
+--							END
+-- CREATE PROCEDURE delvalue(@delvalue INT) AS DELETE FROM Employees where Id = @delvalue;
+-- CREATE PROCEDURE insertvalue(@var1 nvarchar(20), @var2 nvarchar(20), @var3 nvarchar(20)) AS INSERT INTO Employees values (@var1, @var2, @var3);
+-- CREATE PROCEDURE removeshorts(@delshorts INT = 0) AS 
+--		DELETE FROM Employees WHERE ((SELECT LEN(First_Name)) < 5 AND ((SELECT LEN(Last_Name)) < 5));
